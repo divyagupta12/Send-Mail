@@ -91,7 +91,6 @@ public class SendEmail {
             } else {
                 System.out.println("this file can't be sent because some file types are blocked in gmail ");
             }
-            e.printStackTrace();
         }
     }
 }
