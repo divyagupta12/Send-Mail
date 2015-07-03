@@ -60,9 +60,6 @@ public class SendEmail {
 
             msg.setSubject(aa.getSubject());
 
-            // msg.setText(aa.getContent());
-            //msg.setText(aa.getContent());
-
             BodyPart BodyPart = new MimeBodyPart();
 
             BodyPart.setText(aa.getContent());
